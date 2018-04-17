@@ -7,7 +7,7 @@ export class Header extends React.Component {
 		return(
 			<header className="App-header">
         <img src={robo} className="App-logo" alt="logo" />
-        <Link to='login'>
+        <Link to='/login'>
         	<button className="App-title">Sign In</button>
         </Link>	
       </header>
