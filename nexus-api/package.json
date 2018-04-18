@@ -4,7 +4,8 @@
   "description": "Social Networking Bots",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node -- src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/VonStein7/Social-Nexus/issues"
   },
-  "homepage": "https://github.com/VonStein7/Social-Nexus#readme"
+  "homepage": "https://github.com/VonStein7/Social-Nexus#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
