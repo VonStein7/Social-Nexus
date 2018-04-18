@@ -1,0 +1,19 @@
+{
+  "name": "social-nexus",
+  "version": "1.0.0",
+  "description": "Social Networking Bots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VonStein7/Social-Nexus.git"
+  },
+  "author": "Brenden Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VonStein7/Social-Nexus/issues"
+  },
+  "homepage": "https://github.com/VonStein7/Social-Nexus#readme"
+}
