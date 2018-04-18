@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Nav } from './navBar.js';
-import { Header } from './Header.js';
+import Header from './Header.js';
 import { Route } from 'react-router-dom';
 import HomePage from './components/pages/HomePage.js';
 import LoginPage from './components/pages/LoginPage.js';
