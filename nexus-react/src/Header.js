@@ -10,10 +10,17 @@ const Header = ({ isAuthenticated, logout }) => (
 	<header className="App-header">
     <img src={robo} className="App-logo" alt="logo" />
     {isAuthenticated ? 
-    	<Button className='App-title' primary onClick={()=> logout()}>Logout</Button> : 
-    	<Link to='/login'>
-    		<Button className="App-title" primary>Login</Button>
-    	</Link>}	
+    	<Button className='App-title' primary onClick={()=> logout()}>Logout</Button> : ( 
+      <div>
+      	<Link to='/login'>
+      		<Button className="App-title" primary>Login</Button>
+      	</Link>
+
+        <Link to='/signup'>
+            <Button className='App-title' primary>Sign Up</Button>
+        </Link>
+      </div>
+      )}
   </header>
 );
 

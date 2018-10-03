@@ -5,7 +5,6 @@ import { Header } from '../../Header.js';
 const HomePage = () => (
 	<div>
 		<h1>Home Page</h1>
-		<Link to='/login'>Login</Link>
 	</div>
 );
 
